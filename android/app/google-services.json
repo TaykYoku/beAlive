@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "562277254260",
+    "firebase_url": "https://bealive-622fc.firebaseio.com",
+    "project_id": "bealive-622fc",
+    "storage_bucket": "bealive-622fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562277254260:android:4faa51cd312f205d4d7d21",
+        "android_client_info": {
+          "package_name": "com.ukraine.be_alive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562277254260-rnsdo9vmn2ddqr4qc7ipdb470g18a2dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1nbWWLHIkUKAA4MrvfEPqeK64Xn6Sny0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562277254260-rnsdo9vmn2ddqr4qc7ipdb470g18a2dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
