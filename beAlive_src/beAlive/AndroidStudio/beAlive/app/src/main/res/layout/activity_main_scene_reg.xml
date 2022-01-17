@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scene_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="185dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRegister">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="31dp"
+            android:text="@string/text_reg_google"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="33dp"
+            android:text="@string/e_mail"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_google_plus"
+            android:contentDescription="@string/todo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorPrimary">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_login_name"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/ic_login_name"
+                android:fontFamily="@font/roboto_light"
+                android:hint="@string/name"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress|textNoSuggestions"
+                android:minWidth="350dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:singleLine="false"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textCursorDrawable="@null"
+                android:textSize="14sp"
+                app:backgroundTint="@android:color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorPrimary">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_login_name"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/ic_login_name"
+                android:fontFamily="@font/roboto_light"
+                android:hint="@string/name"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress|textNoSuggestions"
+                android:minWidth="350dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:singleLine="false"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textCursorDrawable="@null"
+                android:textSize="14sp"
+                app:backgroundTint="@android:color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputPasswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorPrimary"
+            app:passwordToggleEnabled="true">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_locked_mob"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/ic_locked_mob"
+                android:fontFamily="@font/roboto_light"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:minWidth="350dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:singleLine="false"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textCursorDrawable="@null"
+                android:textSize="14sp"
+                app:backgroundTint="@android:color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputRePasswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorPrimary"
+            app:passwordToggleEnabled="true">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_locked_mob"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/ic_locked_mob"
+                android:fontFamily="@font/roboto_light"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:minWidth="350dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:singleLine="false"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textCursorDrawable="@null"
+                android:textSize="14sp"
+                app:backgroundTint="@android:color/white" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:onClick="onClickLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonRegister"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/roboto_light"
+        android:text="@string/register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

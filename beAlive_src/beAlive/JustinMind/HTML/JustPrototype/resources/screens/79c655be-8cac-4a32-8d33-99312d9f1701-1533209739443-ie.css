@@ -1,0 +1,41 @@
+#s-79c655be-8cac-4a32-8d33-99312d9f1701 #s-logo {
+  -ms-transform: rotate(0.0deg);
+}
+#s-79c655be-8cac-4a32-8d33-99312d9f1701 #s-slogan {
+  -ms-transform: rotate(0.0deg);
+}
+#s-79c655be-8cac-4a32-8d33-99312d9f1701 #s-logo_1 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-79c655be-8cac-4a32-8d33-99312d9f1701 #s-slogan_1 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-79c655be-8cac-4a32-8d33-99312d9f1701 #s-logo_2 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-79c655be-8cac-4a32-8d33-99312d9f1701 #s-slogan_2 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-79c655be-8cac-4a32-8d33-99312d9f1701 #s-point_3 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-79c655be-8cac-4a32-8d33-99312d9f1701 #s-point_2 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-79c655be-8cac-4a32-8d33-99312d9f1701 #s-point_1 {
+  -ms-transform: rotate(0.0deg);
+}
+.devMobile #jim-container .ui-page {
+  overflow-x: hidden;
+}
+.devMobile .non_jim_mobile #simulation {
+  overflow-x: hidden;
+}
+.web #simulation {
+  overflow-x: hidden;
+}
+#s-79c655be-8cac-4a32-8d33-99312d9f1701 > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}

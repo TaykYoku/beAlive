@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scene_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/mainLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/mainLogo"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="@string/intro_slogan"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainLogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/mainText">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorPrimary">
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_login_name"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/ic_login_name"
+                android:fontFamily="@font/roboto_light"
+                android:hint="@string/name"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress|textNoSuggestions"
+                android:minWidth="350dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:singleLine="false"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textCursorDrawable="@null"
+                android:textSize="14dp"
+                app:backgroundTint="@android:color/white" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputPasswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorPrimary"
+            app:passwordToggleEnabled="true">
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_locked_mob"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/ic_locked_mob"
+                android:fontFamily="@font/roboto_light"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:minWidth="350dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:singleLine="false"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textCursorDrawable="@null"
+                android:textSize="14dp"
+                app:backgroundTint="@android:color/white" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonRegister"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/login" />
+        <Button
+            android:id="@+id/buttonRegister"
+            android:onClick="onClickReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/register" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,44 @@
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-logo {
+  -ms-filter: ;
+  filter: ;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-icon_user {
+  -ms-filter: ;
+  filter: ;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-icon_pass {
+  -ms-filter: ;
+  filter: ;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_join {
+  -ms-filter: ;
+  filter: ;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_login {
+  -ms-filter: ;
+  filter: ;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.devMobile #jim-container .ui-page {
+  overflow-x: hidden;
+}
+.devMobile .non_jim_mobile #simulation {
+  overflow-x: hidden;
+}
+.web #simulation {
+  overflow-x: hidden;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}

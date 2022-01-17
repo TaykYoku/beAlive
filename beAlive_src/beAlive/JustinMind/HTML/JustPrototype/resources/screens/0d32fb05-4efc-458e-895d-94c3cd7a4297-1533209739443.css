@@ -1,0 +1,296 @@
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 > #backgroundBox {
+  background-color: transparent;
+  background-image: none;
+  position: absolute;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 > #alignmentBox {
+  position: relative;
+  max-width: 360px;
+  max-height: 640px;
+  width: 100%;
+  height: 100%;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-logo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-logo > img, #s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-logo > svg {
+  height: 100px;
+  width: 100px;
+  box-shadow: none;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_user input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_user input::-moz-placeholder {
+  color: #FFFFFF;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_user input:-moz-placeholder {
+  color: #FFFFFF;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_user input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_user {
+  position: absolute;
+  width: 360px;
+  height: 50px;
+  text-shadow: none;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_user .valign {
+  vertical-align: middle;
+  line-height: 10.0pt;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_user input {
+  color: #FFFFFF;
+  text-align: left;
+  text-decoration: none;
+  font-family: 'Century Gothic',Arial;
+  font-size: 10.0pt;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_user > .backgroundLayer {
+  height: calc(100% + -1px);
+  width: calc(100% + 0px);
+  background-color: transparent;
+  background-image: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  box-shadow: none;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_user > .paddingLayer {
+  height: 49px;
+  width: 310px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  padding-left: 50px;
+  padding-right: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-icon_user {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-icon_user > img, #s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-icon_user > svg {
+  height: 24px;
+  width: 24px;
+  box-shadow: none;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_pass input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_pass input::-moz-placeholder {
+  color: #FFFFFF;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_pass input:-moz-placeholder {
+  color: #FFFFFF;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_pass input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_pass {
+  position: absolute;
+  width: 360px;
+  height: 50px;
+  text-shadow: none;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_pass .valign {
+  vertical-align: middle;
+  line-height: 10.0pt;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_pass input {
+  color: #FFFFFF;
+  text-align: left;
+  text-decoration: none;
+  font-family: 'Century Gothic',Arial;
+  font-size: 10.0pt;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_pass > .backgroundLayer {
+  height: calc(100% + -1px);
+  width: calc(100% + 0px);
+  background-color: transparent;
+  background-image: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  box-shadow: none;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Input_pass > .paddingLayer {
+  height: 49px;
+  width: 310px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  padding-left: 50px;
+  padding-right: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-icon_pass {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-icon_pass > img, #s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-icon_pass > svg {
+  height: 24px;
+  width: 24px;
+  box-shadow: none;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_join > .backgroundLayer {
+  height: calc(100% + 0px);
+  width: calc(100% + 0px);
+  background-color: transparent;
+  background-image: none;
+  box-shadow: 0px 3px 4px 0px #A0A0A0;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_join {
+  position: absolute;
+  width: 360px;
+  height: 50px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  text-shadow: none;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  font-size: 14.0pt;
+  font-family: 'Century Gothic',Arial;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_join > .clipping, #s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_join > .paddingLayer {
+  height: 50px;
+  width: 360px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_join .valign {
+  vertical-align: middle;
+  text-align: center;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_join span {
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Century Gothic',Arial;
+  font-size: 14.0pt;
+  font-style: normal;
+  font-weight: 400;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_join span#rtr-s-Button_join_0 {
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Century Gothic',Arial;
+  font-size: 14.0pt;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_login > .backgroundLayer {
+  height: calc(100% + 0px);
+  width: calc(100% + 0px);
+  background-color: #39AEA8;
+  background-repeat: repeat;
+  background-position-x: left;
+  background-position-y: top;
+  background-attachment: scroll;
+  background-size: auto;
+  background-image: none;
+  box-shadow: none;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_login {
+  position: absolute;
+  width: 360px;
+  height: 50px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  text-shadow: none;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  font-size: 14.0pt;
+  font-family: 'Century Gothic',Arial;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_login > .clipping, #s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_login > .paddingLayer {
+  height: 50px;
+  width: 360px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_login .valign {
+  vertical-align: middle;
+  text-align: center;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_login span {
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Century Gothic',Arial;
+  font-size: 14.0pt;
+  font-style: normal;
+  font-weight: 400;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 #s-Button_login span#rtr-s-Button_login_0 {
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Century Gothic',Arial;
+  font-size: 14.0pt;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+}
+.devMobile #jim-container .ui-page {
+  overflow-x: hidden;
+}
+.devMobile .non_jim_mobile #simulation {
+  overflow-x: hidden;
+}
+.web #simulation {
+  overflow-x: hidden;
+}
+#s-0d32fb05-4efc-458e-895d-94c3cd7a4297 > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}
